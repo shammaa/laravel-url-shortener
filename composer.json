@@ -1,0 +1,52 @@
+{
+    "name": "shammaa/laravel-url-shortener",
+    "description": "Professional URL shortener for Laravel with password protection, QR codes, advanced analytics, UTM tracking, and much more",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shadi Shammaa",
+            "email": "shadi.shammaa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/http": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/database": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/routing": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/cache": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/validation": "^9.0|^10.0|^11.0|^12.0",
+        "simplesoftwareio/simple-qrcode": "^4.2",
+        "jenssegers/agent": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shammaa\\LaravelUrlShortener\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shammaa\\LaravelUrlShortener\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shammaa\\LaravelUrlShortener\\LaravelUrlShortenerServiceProvider"
+            ],
+            "aliases": {
+                "UrlShortener": "Shammaa\\LaravelUrlShortener\\Facades\\UrlShortener"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
