@@ -2,7 +2,24 @@
     "name": "shammaa/laravel-url-shortener",
     "description": "Professional URL shortener for Laravel with password protection, QR codes, advanced analytics, UTM tracking, and much more",
     "type": "library",
+    "keywords": [
+        "laravel",
+        "url-shortener",
+        "short-url",
+        "bitly-alternative",
+        "qr-code",
+        "analytics",
+        "utm-tracking",
+        "password-protection",
+        "link-tracking",
+        "redirect"
+    ],
     "license": "MIT",
+    "homepage": "https://github.com/shammaa/laravel-url-shortener",
+    "support": {
+        "issues": "https://github.com/shammaa/laravel-url-shortener/issues",
+        "source": "https://github.com/shammaa/laravel-url-shortener"
+    },
     "authors": [
         {
             "name": "Shadi Shammaa",
