@@ -15,6 +15,7 @@
         "redirect"
     ],
     "license": "MIT",
+    "version": "1.1.0",
     "homepage": "https://github.com/shammaa/laravel-url-shortener",
     "support": {
         "issues": "https://github.com/shammaa/laravel-url-shortener/issues",
