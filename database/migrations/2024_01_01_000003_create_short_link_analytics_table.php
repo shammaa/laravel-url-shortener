@@ -51,7 +51,6 @@ return new class extends Migration
             
             // Unique index to prevent duplicate aggregations
             $table->unique(['short_link_id', 'date']);
-            $table->index('date');
         });
     }
 

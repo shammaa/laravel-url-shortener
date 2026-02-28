@@ -73,7 +73,6 @@ return new class extends Migration
             $table->index('is_active');
             $table->index('expires_at');
             $table->index(['user_id', 'user_type']);
-            $table->index('group');
         });
     }
 
